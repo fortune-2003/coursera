@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+ <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Obiora Fortune">
+    <meta name="Description" content="This page contains information about cats.">
+    <title>Cats</title>
+    <style>
+     html {
+        font-size: medium;
+    }
+    body { 
+        background-color: rgb(247, 221, 221);
+        color: black;
+    }
+    a {
+        color: blue;
+    }
+    a:visited{
+        color: darkblue;
+    }
+    a:hover a:active{
+        color: #eee;
+    }
+</style>
+</head>
+<body>
+    <main>
+    <h1>
+        CatPhotoApp
+    </h1>
+    <section>
+<h2>
+    CatPhotos
+</h2>
+<p>
+    See more <a href="https://www.pexels.com/search/cat/">cat photos</a> in our gallery.
+</p>
+<figure>
+    <img src="img/Cat.jpeg" alt="Image of cat">
+</figure>
+</section>
+<section>
+<h2>
+    Cat Lists
+</h2>
+</section>
+<section>
+<h3>
+    Things Cats love.
+</h3>
+<ul>
+    <li>
+        <p> catnip</p>
+    </li>
+    <li>
+        <p>Laser pointers</p>
+    </li>
+    <li>
+        <p>Lasagna</p>
+    </li>
+    <figure>
+    <img src="img/lasagna.jpeg" alt="Lasagna" title="lasagna">
+    <figcaption>
+        cats love lasagna.
+    </figcaption>
+</figure>
+</ul>
+</section>
+
+<h3>
+    Cat Form
+</h3>
+<label><input id="indoor" type="radio" name="indoor-outdoor"> Indoor</label>
+          <label><input id="outdoor" type="radio" name="indoor-outdoor"> Outdoor</label>
+          <input type="text" name="catphotourl" placeholder="cat photo URL" required>
+          <button type="submit">Submit</button>
+          <h3>
+            Contact information
+          </h3>
+          <input type="text" name="contactinfo" id="Name" placeholder="First Name">
+          <br>
+          <input type="text" name="contactinfo" id="Name" placeholder="Last Name">
+          <br>
+          <input type="text" name="contactinfo" id="Email" placeholder="Email">
+          <br>
+          <input type="text" name="contactinfo" id="Phonenumber"placeholder="Phone Number">
+          <br>
+          <button type="reset">Reset</button>
+          <button type="submit">Submit</button> 
+</main>
+</body>
+ </html>
+
