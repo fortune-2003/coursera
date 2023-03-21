@@ -1,0 +1,91 @@
+body {
+    background-color: aliceblue;
+    background-image: url(https://www.tastingtable.com/img/gallery/coffee-brands-ranked-from-worst-to-best/l-intro-1645231221.jpg);
+    image-orientation: from-image;
+    padding: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1 {
+  font-size: 40px;
+  color: black;
+  font-weight: bolder;
+  text-align: center;  
+
+}
+p, h2 {
+    text-align: center;
+}
+.menu {
+ background-color: burlywood;
+ width: 80%;
+ margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  max-width: 500px;
+}
+.price {
+ text-align: right;
+ width: 50%;
+}
+.coffeetype {
+    text-align: left;
+    width: 50%;
+}
+.date{
+    font-style: italic;
+}
+h2 {
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.item p{
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  hr {
+    height: 2px;
+    background-color: brown;
+    border-color: brown;
+  }
+  .dessert {
+    text-align: left;
+    width: 50%;
+  }
+  /*FOOTER*/
+  footer {
+    margin-bottom: 5px;
+    font-size: small;
+    font-family: serif;
+  }
+  .bottom-line {
+   margin-top: 25px;
+  }
+  a {
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  a {
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  a:visited {
+    color: blue;
+  }
+  a:hover {
+    color:purple
+  }
+a:active {
+  color: purple;
+}
+.address {
+  font-size: 15px;
+  font-style: oblique;
+}

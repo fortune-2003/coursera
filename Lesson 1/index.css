@@ -1,0 +1,17 @@
+html {
+    font-size: 20px;
+}
+body {
+    background-color: beige;
+    color: black;
+}
+a { 
+    color: blue;
+}
+a:visited {
+color: purple;
+}
+
+a:hover, a:active {
+    color: violet;
+}
