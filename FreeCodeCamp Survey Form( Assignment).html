@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Survey Form</title>
     <link rel="stylesheet" href="FreeCodeCamp Survey Form( Assignment).css"/>
   </head>
@@ -13,9 +14,9 @@
       
         <form id="survey-form" action="https://formsubmit.co/cf696e6003503bec9bea8545c5948a6a" method="POST">
           <fieldset>
-        <label for="first-name">First Name: <input type="text" id="first-name" name="first-name" placeholder="First Name" required /></label>
-        <label for="last-name">Last Name<input type="text" id="last-name" name="last-name" placeholder="Last Name" required /></label>
-        <label for="email">Email<input type="text" id="email" name="email" placeholder="Email" required /></label>
+        <label for="first-name">First Name: <input type="text" id="first-name" name="first-name" placeholder="First Name" required/></label>
+        <label for="last-name">Last Name<input type="text" id="last-name" name="last-name" placeholder="Last Name" required/></label>
+        <label for="email">Email<input type="text" id="email" name="email" placeholder="Email" required/></label>
         <label for="age">Age<input id="age" type="number" name="age" min="10" max="120" placeholder="Age" required/></label>
       
      
@@ -29,11 +30,11 @@
           <option value="5">other</option>
         </select>
       </label>
-      <p>Would you recommend FreeCodeCamp to a friend?</p>
-      <label for="referrer-definitely"> <input type="radio" name="referer-option" id="referrer-definitely" class="referrer" />Definitely</label>
-      <label for="referrer-maybe"> <input type="radio" name="referer-option" id="referrer-maybe" class="referrer" />Maybe</label>
-      <label for="referrer-notsure"> <input type="radio" name="referer-option" id="referrer-notsure" class="referrer" />Not Sure</label>
-      <p>What is your favorite feature of freeCodeCamp?</p>
+      <p class="paragraph">Would you recommend FreeCodeCamp to a friend?</p>
+      <label for="referrer-definitely"> <input type="radio" name="referer-option" id="referrer-definitely" class="referrer"/>Definitely</label>
+      <label for="referrer-maybe"> <input type="radio" name="referer-option" id="referrer-maybe" class="referrer"/>Maybe</label>
+      <label for="referrer-notsure"> <input type="radio" name="referer-option" id="referrer-notsure" class="referrer"/>Not Sure</label>
+      <p class="paragraph">What is your favorite feature of freeCodeCamp?</p>
       <label for="favorite-feature"> 
         <select name="favorite-feature" id="favorite-feature">
           <option value="">Select an option</option>
@@ -42,7 +43,7 @@
     <option value="3">Community</option>
   <option value="4">Open Source</option></select>
       </label>
-      <p>What would you like to see improved?</p>
+      <p class="paragraph">What would you like to see improved?</p>
       <label for="checkbox-1"> <input type="checkbox" name="checkbox-option" id="checkbox-1" class="box" />Front-end projects</label>
       <label for="checkbox-2"> <input type="checkbox" name="checkbox-option" id="checkbox-2" class="box" />Back-end projects</label>
       <label for="checkbox-3"> <input type="checkbox" name="checkbox-option" id="checkbox-3" class="box" />Data Visualization</label>
@@ -53,14 +54,12 @@
       <label for="checkbox-8"><input type="checkbox" name="checkbox-option" id="checkbox-8" class="box">City Meetups</label>
       <label for="checkbox-9"><input type="checkbox" name="checkbox-option" id="checkbox-9" class="box">Forums</label>
       <label for="checkbox-10"><input type="checkbox" name="checkbox-option" id="checkbox-10" class="box">Additional Courses</label>
-      <p>Any comments or suggestions?</p>
+      <p class="paragraph">Any comments or suggestions?</p>
       <label for="comments">
         <textarea name="comments" id="comments" cols="30" rows="4" placeholder="Enter your comment here...."></textarea>
       </label>
      </fieldset>
-     <fieldset>
       <input type="submit" value="submit"/>
-     </fieldset>
     </form>
   
       </body>

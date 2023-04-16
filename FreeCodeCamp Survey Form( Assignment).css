@@ -5,7 +5,7 @@ body {
   background-color: #4b4b9e;
   color: #f5f6f7;
   font-family: Tahoma;
-  font-size: 18px;
+  font-size: 14px;
   
 }
 h1 {
@@ -15,14 +15,13 @@ h1 {
 }
 
 form {
-  width: 1000px;
+  width: 500px;
   max-width: 1200px;
   min-width: 300px;
   margin: 0 auto;
   padding-bottom: 2em;
-  font-size: 25px;
-  
-  
+  font-size: 20px;
+   
 }
 
 .thanks{
@@ -40,7 +39,8 @@ fieldset:last-of-type {
 
 label {
   display: block;
-  margin: 0.2rem 0;
+  margin: 0.5rem 0;
+  
 }
 input,
   textarea,
@@ -70,7 +70,7 @@ input,
     margin: 1em auto;
     height: 2em;
     font-size: 1.1rem;
-    background-color: #3b3b4f;
+    background-color: #030346;
     border-color: white;
     min-width: 300px;
   }
@@ -78,3 +78,6 @@ input,
   input[type="file"] {
     padding: 1px 2px;
   }
+ .paragraph {
+  padding: 0;
+ }
