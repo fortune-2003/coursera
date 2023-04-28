@@ -1,0 +1,64 @@
+body {
+    background-color: aliceblue;
+}
+.header {
+    background-color: rgb(86, 86, 182, 0.219);
+
+}
+.note {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: solid;
+    font-size: 16px;
+    padding: 10px;
+}
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 2px;
+    margin: 20px;
+    font-weight: 700;
+}
+.photo {
+     margin-left: auto;
+     margin-right: auto;
+    align-items: center;
+    display: block;
+}
+.timeline {
+   text-align: center;
+    padding: 30px 30px 30px 30px;
+    background-color:   rgba(86, 86, 182, 0.219);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: solid;
+    font-weight: bolder;
+}
+.date {
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif 'Times New Roman', Times, serif;
+    font-style: italic;
+    margin-left: 20%;
+    margin-right: 80%;
+    width: 60%;
+}
+
+.section {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: (86, 86, 182, 0.219);
+}
+.quote {
+    font-style: normal;
+}
+#more {
+    font-size: 20px;
+    width: 70%;
+    margin-left: 10%;
+    margin-right: 90%;
+    font-style: oblique;
+    padding: 40px 40px 40px 40px;
+}
