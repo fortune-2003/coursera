@@ -1,4 +1,3 @@
-# coursera
-coursera course
-Practice Coding Assignments for my HTML, CSS, and JavaScript Course on Cousera.
-
+README.md
+This is a sample Technical Documentation Page.
+FreeCodeCamp Assignment 3 for the Responsive Web Design course.

@@ -1,0 +1,197 @@
+.header {
+    text-align: justify;
+    font-weight: bold;
+    font-size: 20px;
+color: black;
+}
+#navbar {
+    background-color: #ECEBEB;
+		position: fixed;
+		height: 100%;
+		width: 22vw;
+		top: 0;
+		left: 0;
+		z-index: 1;
+		padding: 10px;
+		font-size: 16px;
+		border-right: 3px solid black;
+        color: gray;
+        overflow-x: scroll;
+        background-color: azure;
+}
+#main-doc {
+    
+    height: 100%;
+    position: absolute;
+    padding: 10px;
+    margin-left: 25vw;
+    overflow-y: scroll;
+}
+main-section {
+  background-color: azure;
+ 
+}
+a {
+    color: gray;
+    text-decoration: none;
+}
+body {
+    background-color: #F7F7F7;
+    font-size: 110%;
+    font-family: Helvetica;
+}
+p {
+    font-size: 15px;
+    font-family: sans-serif;
+    color: rgb(1, 1, 20);
+}
+/*-------Small Devices-----------*/
+@media (max-width: 700px) and (min-width:200px) {
+    .header {
+        text-align: justify;
+        font-weight: bold;
+        font-size: 20px;
+    color: black;
+    }
+    #navbar {
+        background-color: #ECEBEB;
+            position: fixed;
+            height: 100%;
+            width: 22vw;
+            top: 0;
+            left: 0;
+            z-index: 1;
+            padding: 10px;
+            font-size: 18px;
+            border-right: 3px solid black;
+            color: gray;
+            overflow-x: scroll;
+            background-color: azure;
+    }
+    #main-doc {
+        
+        height: 100%;
+        position: absolute;
+        padding: 10px;
+        margin-left: 25vw;
+        overflow-y: scroll;
+    }
+    main-section {
+      background-color: azure;
+     
+    }
+    a {
+        color: gray;
+        text-decoration: none;
+    }
+    body {
+        background-color: #F7F7F7;
+        font-size: 110%;
+        font-family: Helvetica;
+    }
+    p {
+        font-size: 15px;
+        font-family: sans-serif;
+        color: rgb(1, 1, 20);
+    }
+};
+/*----------Medium Devices--------------*/
+@media (max-width: 1200) and (min-width: 701px) {
+    .header {
+        text-align: justify;
+        font-weight: bold;
+        font-size: 20px;
+    color: black;
+    }
+    #navbar {
+        background-color: #ECEBEB;
+            position: fixed;
+            height: 100%;
+            width: 22vw;
+            top: 0;
+            left: 0;
+            z-index: 1;
+            padding: 10px;
+            font-size: 18px;
+            border-right: 3px solid black;
+            color: gray;
+            overflow-x: scroll;
+            background-color: azure;
+    }
+    #main-doc {
+        
+        height: 100%;
+        position: absolute;
+        padding: 10px;
+        margin-left: 25vw;
+        overflow-y: scroll;
+    }
+    main-section {
+      background-color: azure;
+     
+    }
+    a {
+        color: gray;
+        text-decoration: none;
+    }
+    body {
+        background-color: #F7F7F7;
+        font-size: 110%;
+        font-family: Helvetica;
+    }
+    p {
+        font-size: 15px;
+        font-family: sans-serif;
+        color: rgb(1, 1, 20);
+    }
+}
+/*---------Large Devices--------------*/
+@media (max-width:2000px) and (min-width: 1200px) {
+    .header {
+        text-align: justify;
+        font-weight: bold;
+        font-size: 20px;
+    color: black;
+    }
+    #navbar {
+        background-color: #ECEBEB;
+            position: fixed;
+            height: 100%;
+            width: 22vw;
+            top: 0;
+            left: 0;
+            z-index: 1;
+            padding: 10px;
+            font-size: 18px;
+            border-right: 3px solid black;
+            color: gray;
+            overflow-x: scroll;
+            background-color: azure;
+    }
+    #main-doc {
+        
+        height: 100%;
+        position: absolute;
+        padding: 10px;
+        margin-left: 25vw;
+        overflow-y: scroll;
+    }
+    main-section {
+      background-color: azure;
+     
+    }
+    a {
+        color: gray;
+        text-decoration: none;
+    }
+    body {
+        background-color: #F7F7F7;
+        font-size: 110%;
+        font-family: Helvetica;
+    }
+    p {
+        font-size: 15px;
+        font-family: sans-serif;
+        color: rgb(1, 1, 20);
+    }
+}
