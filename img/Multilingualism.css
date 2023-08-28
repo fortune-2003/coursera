@@ -1,0 +1,34 @@
+body {
+    background-color: rgb(133, 235, 235);
+}
+
+h1 {
+    font-size: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     text-align: center;
+     color: black;
+     height: auto;
+     width: auto;
+     margin-left: auto;
+     margin-right: auto;
+}
+.line {
+    color: black;
+    width: 100%;
+    height: auto;
+}
+h3 {
+    font-size: 25px;
+    font-style: italic;
+margin-left: 20px;
+}
+p {
+    font-size: 18px;
+    margin: auto;
+    font-family:'Times New Roman', Times, serif;
+}
+li {
+    font-size: 20px;
+    margin: 5px;
+
+}
